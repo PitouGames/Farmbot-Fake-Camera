@@ -1,0 +1,17 @@
+{
+ "package": "Fake-Camera",
+ "language": "python",
+ "author": "PitouGames",
+ "description": "A Farmbot Farmware to create images even if you don't have a camera on your robot.",
+ "farmware_manifest_version": "2.0.0",
+ "package_version": "1.0.0",
+ "farmbot_os_version_requirement": ">= 8.0.0",
+ "url": "https://raw.githubusercontent.com/PitouGames/Farmbot-Fake-Camera/master/manifest.json",
+ "zip": "https://github.com/PitouGames/Farmbot-Fake-Camera/archive/master.zip",
+ "executable": "python",
+ "args": "Farmbot-Fake-Camera-master/fake-camera.py",
+ "config": {
+   "1": {"name": "x_size", "label": "Width of the image to generate", "value": 640 },
+   "2": {"name": "y_size", "label": "Height of the image to generate", "value": 480 }
+ }
+}
